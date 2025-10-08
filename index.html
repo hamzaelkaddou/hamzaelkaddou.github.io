@@ -3,10 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benvingut</title>
+  <title>Hamza El Kaddouri</title>
+  <style>
+    /* Fonts i colors */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Secció central */
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 2em;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.8em 2em;
+      background-color: #ff4b2b;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #ff416c;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      font-size: 0.9em;
+      color: rgba(255,255,255,0.7);
+    }
+  </style>
 </head>
 <body>
-  <h1>Hola! Sóc Hamza El Kaddouri</h1>
-  <p>Aquesta és la meva primera pàgina web!</p>
+  <div class="container">
+    <h1>Hola! Sóc Hamza El Kaddouri</h1>
+    <p>Benvingut a la meva pàgina personal</p>
+    <a class="button" href="#contacte">Contacta’m</a>
+  </div>
+
 </body>
 </html>
